@@ -7,7 +7,22 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
-
+/*
+.color-red {
+  color: red;
+}
+.color-green {
+  color: green;
+}
+.color-blue {
+  color: blue;
+}
+.color-purple {
+  color: purple;
+}
+.color-black {
+  color: black;
+}*/
 .app-header {
   background-color: aqua;
   height: 75px;
@@ -34,7 +49,10 @@ body {
   position: relative;
   height: 350px;
 }
-
+.forza {
+  position: absolute;
+  bottom: 100px;
+}
 .arrow-button-container {
   position: absolute;
   top: 0;
@@ -135,9 +153,5 @@ h2 {
 }
 
 /*this is desktop */
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: white;
-    color: black;
-  }
+@media screen and (min-width: 767px) {
 }
