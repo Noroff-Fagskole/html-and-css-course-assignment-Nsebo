@@ -6,10 +6,11 @@
 }
 .app-header {
   background-color: aqua;
-  height: 100px;
+  height: 80px;
 }
 .nav-bar {
   display: flex;
+  padding: 40px 120px;
 }
 
 .nav-logo img {
