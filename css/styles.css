@@ -1,9 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Roboto', sans-serif;
-}
+
+/*mobile styles*/
+
+
+@media screen and (min-width: 767px) {
+  /* I am TABLET and DESKTOP */
 
 .nav-bar {
   display: flex;
@@ -54,6 +54,7 @@
 .nav-links .btn {
   float: right;
 }
+
 /*body {
   background-color: aliceblue;
   font-family: 'Montserrat', sans-serif;
