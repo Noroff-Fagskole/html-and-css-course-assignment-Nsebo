@@ -1,9 +1,9 @@
-
-/*mobile styles*/
-
-
-@media screen and (min-width: 767px) {
-  /* I am TABLET and DESKTOP */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
 
 .nav-bar {
   display: flex;
