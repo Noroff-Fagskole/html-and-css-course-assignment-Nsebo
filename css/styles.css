@@ -51,7 +51,7 @@
 .nav-links ul li:hover::after {
   width: 100%;
 }*/
-
+/*
 .btn {
   padding: 5px 10px;
   border: 0;
@@ -62,7 +62,7 @@
 }
 .nav-links .btn {
   float: right;
-}
+}*/
 .fa-bars {
   display: none;
 }
