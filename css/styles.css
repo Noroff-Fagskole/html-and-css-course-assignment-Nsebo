@@ -6,7 +6,7 @@
 }
 .app-header {
   background-color: aqua;
-  height: 48px;
+  height: 40px;
 }
 .container {
   display: flex;
@@ -22,6 +22,7 @@
 
 .nav-logo img {
   width: 50px;
+  padding-top: 3px;
 }
 
 .nav-links ul {
