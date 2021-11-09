@@ -4,6 +4,10 @@
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
+
+body {
+  background-image: url(..);
+}
 .app-header {
   background-color: aqua;
   height: 40px;
