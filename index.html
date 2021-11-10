@@ -1,132 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-         />
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>GameHub</title>
-      <link rel="stylesheet" href="./css/styles.css" />
-   </head>
-   <body>
-      <!--header-->
-      <header class="app-header">
-         <div class="container">
-            <label for="hamburger-menu">
-            <span class="sr-only">Hamburger menu</span>
-            
-            <i class="fas fa-bars"></i>
-            </label>
-            <div class="nav-logo">
-               <img src="./img/GameHub_Logo .png" >
-            </div>
-            <label for="user-icon">
-               <span class="sr-only">User icon</span>
-               <i class="fas fa-user"></i>
-             </label>
-          
-            <div class="nav-links">
-               
-                  <ul class="app-navigation-drawer">
-                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#"><i class="fas fa-users"></i> About Us</a></li>
-                    <li><a href="#"> <i class="fas fa-phone"></i>Contact</a></li>
-                    <li><a href="#"> <i class="fas fa-store"></i>Market</a></li>
-                    <li><a href="#"> <i class="fas fa-user-plus"></i>Sign Up</a></li>
-                  </ul>
-               </div>  
-      </header>
-      <main>
-         <!--hero-banner-->
-         <section class="hero-banner">
-            <div class="arrow-button-container">
-               <div>
-                  <button><i class="fas fa-angle-left"></i></button>
-                  <button><i class="fas fa-angle-right"></i></button>     
-               </div>
-               <div class="forza">
-                  <h3>FORZA HORIZON 5 AVAILABLE NOW!</h3>
-               </div>
-               <div class="button">
-                  <button>Buy Now</button>
-               </div>
-            </div>
-            <div class="thumbnail">
-               <picture>
-                  <source media="(max-width: 499px)" srcset="./img/Forza-horizon-5.png">
-                  <source media="(min-width: 500px)" srcset="./img/forza-desktop.png">
-                  <img src="./img/forza-desktop.png" alt="thumbnail">
-               </picture>
-               <!--use min-width only start at 0 and create a breakpoint as you need it
-               (0) mobile
-               (min-width: 768px- table portrait)
-               (min-width: 1024px- table landscape and some desktops)
-               (min-width: 1280px- bigger desktops. up to and includes 1920x1080)
-               
-            -->
-            </div>
-         </section>
-     <!--section-->
-         <div class="section-text">
-             <label>SPECIAL OFFER</label>
-         </div>
-
-         <section class="call-to-action">
-            <div class="container ">
-               <div class="flex-items">
-                  <div  class="cards">
-                     <h3>FIFA22</h3>
-                     <img
-                 src="./img/Fifa22.png"
-                 alt="fifa22image"/>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, aspernatur.</p>
-               <button>Buy Now</button>
-
-                  </div>
-                  <div class="cards"> 
-                     <img
-                     src="./img/Racing.jpg"
-                     alt="racingcarimage"/>
-                     
-                   
-                     <h3>RACING</h3>
-                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, neque.</p>
-                     <button>Buy Now</button>
-                
-                  </div> 
-                  <div class="cards">
-                     <img
-                     src="./img/Spacewar.jpg"
-                     alt="spacewarimage"
-                   
-                     <h3>SPACEWAR</h3>
-                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, neque.</p>
-                     <button>Buy Now</button>
-                  </div>
-               </div>
-            </div>
-         </section>
-           
-<!--inquiry-->
-<section class="inquiry">
-            <h3>Looking for recommendation?</h3>
-      <p>Shop for digital games</p>
-      <div
-      class="info_buttonDiv">
-   <button
-      class="info_signin">Sign In</button>
-   <button
-      class="info_createAccount">Create Account</button>
-   </div>
-        </section>
-        
-      <!--footer-->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="./img/GameHub_Logo .png" alt="logo" />
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Market</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Categories</a></li>
+          </ul>
+        </nav>
+        <button class="btn">Sign up/Login</button>
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="inner-container">
+        <h1>Welcome to GameHub</h1>
+        <h4>The Universe of Games</h4>
+        <a class="btn1" href="#">Click here</a>
+      </div>
+    </div>
+  </body>
+</html>
+      <!--footer starts here-->
         <footer>
          <div>
       <h3>Sitemap</h3>
