@@ -5,19 +5,26 @@
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
+/*Mobile starts here*/
 
 .container {
-  height: 15vh;
+  height: 60px;
+  width: 50%;
+}
+
+@media screen and (min-width: 767px) {
+}
+.container {
+  height: 120px;
   width: 100%;
 }
 
 .navbar {
   width: 100%;
-  height: 15vh;
+  height: 120px;
   margin: auto;
   display: flex;
   align-items: center;
-  position: relative;
 }
 .logo {
   width: 100px;
@@ -46,7 +53,7 @@ nav ul li a {
 
 .img-container {
   background-image: url(../img/hero-banner.jpg);
-  height: 180vh;
+  height: 1440px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,6 +152,8 @@ h2 {
   padding: 0;
   margin: 0;
 }
+@media screen and (min-width: 1024px) {
+}
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1028px) {
 }
