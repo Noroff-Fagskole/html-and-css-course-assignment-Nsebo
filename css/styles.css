@@ -53,9 +53,10 @@ nav ul li a {
 
 .img-container {
   background-image: url(../img/hero-banner.jpg);
-  height: 1440px;
+  height: 1800px;
   background-position: center;
   background-repeat: no-repeat;
+  object-fit: cover;
   background-size: cover;
   position: relative;
 }
