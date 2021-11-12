@@ -87,7 +87,6 @@ nav ul li a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 20px;
 }
 footer {
   display: flex;
