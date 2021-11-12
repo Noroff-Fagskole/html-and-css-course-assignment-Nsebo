@@ -12,8 +12,6 @@
   width: 50%;
 }
 
-@media screen and (min-width: 767px) {
-}
 .container {
   height: 120px;
   width: 100%;
@@ -31,6 +29,55 @@
   width: 100px;
   height: 62px;
 }
+.app-navigation {
+  float: right;
+}
+.app-navigation a:link {
+  text-decoration: none;
+  color: #444;
+  padding: 0.5em;
+}
+.app-navigation a:visited {
+  color: #444;
+}
+
+.app-navigation a:active {
+  color: aliceblue;
+}
+
+.app-navigation a:hover {
+  color: darkcyan;
+}
+
+.app-navigation-drawer {
+  display: block;
+  background: #fff;
+  padding: 0.5em;
+  list-style: none;
+  transition: all 0.4s linear;
+  transform: translateY(-150%);
+}
+
+#hamburger-menu:checked ~ .app-navigation-drawer {
+  /*show nav on :checked */
+  display: block;
+  /* animate into page show state */
+  transform: translateY(0%);
+}
+
+.sr-only {
+  display: none;
+}
+
+#hamburger-menu {
+  /* hide the checkbox */
+  display: none;
+}
+
+#hamburger-menu label {
+  cursor: pointer;
+}
+
 nav {
   flex: 1;
   padding-left: 20%;
@@ -44,12 +91,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
-}
-.btn {
-  position: relative;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
 }
 
 .img-container {
@@ -170,6 +211,23 @@ h2 {
   padding: 0;
   margin: 0;
 }
+
+@media screen and (min-width: 767px) {
+  .app-navigation-drawer {
+    transform: translateY(0);
+    background: transparent;
+    border-bottom: none;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .app-navigation-drawer li {
+    display: inline-block;
+  }
+}
+
 @media screen and (min-width: 1024px) {
 }
 

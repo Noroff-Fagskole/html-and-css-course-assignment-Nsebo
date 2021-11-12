@@ -22,16 +22,22 @@
     <header class="container">
       <div class="navbar">
         <img src="./img/GameHub_Logo .png" alt="logo" />
-        <nav>
+        <nav class="app-navigation">
+          <label for="hamburger-menu">
+            <span class="sr-only">Hamburger menu</span>
+            <i class="fas fa-bars"></i>
+          </label>
+          <input id="hamburger-menu" type="checkbox" />
+          <ul class="app-navigation-drawer">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Store</a></li>
-            <li><a href="">Categories</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./store.html">Store</a></li>
+            <li><a href="./login.html">Sign up/Login</a></li>
+            <li><a href="./contact.html">Contact</a></li>
           </ul>
         </nav>
-        <button class="btn">Sign up/Login</button>
+        
       </div>
     </header>
     <div class="img-container">
