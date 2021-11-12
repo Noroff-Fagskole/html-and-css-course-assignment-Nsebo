@@ -25,6 +25,7 @@
   margin: auto;
   display: flex;
   align-items: center;
+  background-color: rgb(78, 184, 184);
 }
 .logo {
   width: 100px;
@@ -60,6 +61,7 @@ nav ul li a {
   background-size: cover;
   position: relative;
 }
+
 .inner-container {
   align-items: center;
   position: absolute;
@@ -106,6 +108,7 @@ a {
 .call-to-action {
   width: 100%;
   margin-bottom: 20px;
+  background-color: rgb(110, 153, 153);
 }
 
 .call-to-action h1 {
@@ -125,19 +128,29 @@ a {
   margin: 50px;
 }
 
+.inquiry {
+  background: cadetblue;
+}
+
+.inquiry h1 {
+  font-size: 50px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  color: white;
+  color: black;
   padding: 20px 0;
-  background: #284e7a;
+  background: rgb(110, 153, 153);
+  height: 200px;
 }
 .social-list {
   list-style: none;
   display: flex;
   justify-content: space-around;
   width: 100%;
+  color: rgb(117, 54, 218);
 }
 
 footer div {
