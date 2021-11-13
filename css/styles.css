@@ -5,7 +5,6 @@
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
-/*Mobile starts here*/
 
 .container {
   height: 60px;
@@ -187,7 +186,7 @@ footer {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  color: rgb(117, 54, 218);
+  color: black;
 }
 
 footer div {
