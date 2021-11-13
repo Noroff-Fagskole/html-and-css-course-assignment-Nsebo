@@ -5,16 +5,7 @@
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
-@media screen and (min-width: 768px) {
-  body {
-    background-color: lightseagreen;
-  }
 
-  .container {
-    height: 60px;
-    width: 50%;
-  }
-}
 body {
   background-color: aliceblue;
 }
@@ -65,9 +56,7 @@ body {
 }
 
 #hamburger-menu:checked ~ .app-navigation-drawer {
-  /*show nav on :checked */
   display: block;
-  /* animate into page show state */
   transform: translateY(0%);
 }
 
@@ -76,7 +65,6 @@ body {
 }
 
 #hamburger-menu {
-  /* hide the checkbox */
   display: none;
 }
 
@@ -218,23 +206,4 @@ h2 {
 }
 
 @media screen and (min-width: 767px) {
-  .app-navigation-drawer {
-    transform: translateY(0);
-    background: transparent;
-    border-bottom: none;
-  }
-
-  .fa-bars {
-    display: none;
-  }
-
-  .app-navigation-drawer li {
-    display: inline-block;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-}
-
-@media screen and (min-width: 1028px) {
 }
