@@ -5,12 +5,19 @@
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lightseagreen;
+  }
 
-.container {
-  height: 60px;
-  width: 50%;
+  .container {
+    height: 60px;
+    width: 50%;
+  }
 }
-
+body {
+  background-color: aliceblue;
+}
 .container {
   height: 120px;
   width: 100%;
@@ -179,7 +186,6 @@ footer {
   color: black;
   padding: 20px 0;
   background: rgb(110, 153, 153);
-  height: 200px;
 }
 .social-list {
   list-style: none;
