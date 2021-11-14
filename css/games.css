@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  margin: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+input[type='text'] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.type p {
+  margin: 80px 20px 20px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: gray;
+  color: #000;
+}
+
+.type p:hover {
+  background-color: rgb(228, 214, 20);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+
+.card-01 {
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  border-radius: 5px;
+  margin: 2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.card {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
