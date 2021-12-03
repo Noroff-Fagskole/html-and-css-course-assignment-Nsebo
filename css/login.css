@@ -18,7 +18,8 @@ a {
   text-decoration: none;
   color: var(--primary-blue);
 }
-:hover {
+
+a:hover {
   text-decoration: underline;
 }
 .small {
@@ -43,18 +44,22 @@ a {
     url('/img/login-img.png');
   background-size: cover;
 }
+
 .left,
 .copy {
   color: white;
   text-align: center;
 }
+
 .left p {
   font-weight: 400;
 }
+
 .right .copy {
   color: black;
   text-align: center;
 }
+
 .right .copy p {
   margin: 1.5rem 0;
   font-size: 0.875rem;
@@ -150,18 +155,6 @@ label {
   background: #2c4893;
   cursor: pointer;
 }
-@media screen and (min-width: 900px) {
-  .split-screen {
-    flex-direction: row;
-    height: 100vh;
-  }
-  .left,
-  .right {
-    display: flex;
-    width: 50%;
-    height: auto;
-  }
-}
 h2 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -214,9 +207,11 @@ label {
   top: 42px;
   right: 16px;
 }
-.little {
+.pw {
   font-size: 80%;
   text-align: right;
+  color: #000;
+  font-weight: 200px;
 }
 .login-btn {
   display: block;

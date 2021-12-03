@@ -142,7 +142,7 @@ label {
   display: block;
   width: 100%;
   background: var(--primary-blue);
-  color: white;
+  color: #fff;
   font-weight: 700;
   border: none;
   padding: 1rem;
@@ -160,7 +160,6 @@ label {
     flex-direction: row;
     height: 100vh;
   }
-
   .left,
   .right {
     display: flex;
