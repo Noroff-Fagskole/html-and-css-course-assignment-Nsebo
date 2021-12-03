@@ -11,77 +11,62 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
-
 h1 {
   font-size: 2.25rem;
   font-weight: 700;
 }
-
 h2 {
   font-size: 1.5rem;
   font-weight: 700;
 }
-
 a {
   text-decoration: none;
   color: var(--primary-blue);
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 .small {
   font-size: 80%;
   text-align: center;
 }
-
 .split-screen {
   display: flex;
   flex-direction: column;
 }
-
 .left {
   height: 200px;
 }
-
 .left,
 .right {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .left {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url('https://images.unsplash.com/photo-1580327332925-a10e6cb11baa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=407&q=80');
+    url('/img/game-pad.png');
   background-size: cover;
 }
-
 .left,
 .copy {
   color: white;
   text-align: center;
 }
-
 .left p {
   font-weight: 400;
 }
-
 .right .copy {
   color: black;
   text-align: center;
 }
-
 .right .copy p {
   margin: 1.5rem 0;
   font-size: 0.875rem;
 }
-
 .right form {
   width: 328px;
 }
-
 form input[type='text'],
 form input[type='email'],
 form input[type='password'] {
@@ -94,23 +79,19 @@ form input[type='password'] {
   margin-bottom: 1.25rem;
   font-size: 0.875rem;
 }
-
 label {
   display: block;
   margin-bottom: 0.5rem;
   font-size: 0.75rem;
 }
-
 .input-container.password {
   position: relative;
 }
-
 .input-container.password i {
   position: absolute;
   top: 42px;
   right: 16px;
 }
-
 .checkbox-container input {
   position: absolute;
   opacity: 0;
@@ -118,7 +99,6 @@ label {
   height: 0;
   width: 0;
 }
-
 .checkbox-container {
   position: relative;
   display: block;
@@ -127,12 +107,10 @@ label {
   user-select: none;
   margin: 0 0 1.25rem;
 }
-
 .checkbox-container input:checked ~ .checkmark {
   background-color: var(--primary-blue);
   border: 1px solid var(--primary-blue);
 }
-
 .checkmark {
   position: absolute;
   width: 24px;
@@ -143,17 +121,14 @@ label {
   top: -4px;
   left: 0;
 }
-
 .checkmark::after {
   content: '';
   position: absolute;
   display: none;
 }
-
 .checkbox-container input:checked ~ .checkmark::after {
   display: block;
 }
-
 .checkbox-container .checkmark::after {
   border: solid white;
   border-width: 0 3px 3px 0;
@@ -163,7 +138,6 @@ label {
   top: 4px;
   transform: rotate(45deg);
 }
-
 .signup-btn {
   display: block;
   width: 100%;
@@ -177,12 +151,10 @@ label {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
 .signup-btn:hover {
   background: #2c4893;
   cursor: pointer;
 }
-
 @media screen and (min-width: 900px) {
   .split-screen {
     flex-direction: row;
