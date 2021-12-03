@@ -2,40 +2,49 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: aliceblue;
-}
-.logo {
-  width: 6.25em;
-  height: 3.8em;
-  margin-top: 10px;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-li {
-  padding: 10px;
-  list-style: none;
 }
 .container {
-  display: flex;
-  height: 6.5em;
   width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+nav {
+  flex: 1;
+  text-align: right;
 }
 
-.app-navigation {
-  margin: 30px 600px 20px;
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
 }
-
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+nav ul li a:hover {
+  color: #ff5ea2;
+}
 .hero {
-  background-image: url(../img/hero-banner.jpg);
+  background-image: url(../img/game-hub.png);
   height: 112.5em;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,14 +60,15 @@ li {
   margin-top: 84em;
 }
 
-h1,
-h4 {
+h1 {
   font-size: 2.5em;
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-weight: bolder;
 }
-
+.hero-text-box p {
+  color: #fff;
+}
 a {
   margin-top: 1.25em;
   font-size: 1.3em;
@@ -84,36 +94,26 @@ a {
   color: #000;
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
+.call-to-action h2 {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
+
 .row {
-  width: 100%;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: space-between;
-}
-
-.card-01 {
-  position: relative;
-  flex: 1;
-  max-width: 300px;
-  border-radius: 5px;
-  margin: 2rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
-  text-align: center;
-}
-
-.card {
-  width: 15rem;
-  height: 15rem;
-  margin-top: 2rem;
-  padding-bottom: 1rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 10px;
 }
 
 footer {
+  background-color: rgb(45, 45, 65);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  color: #000;
+  color: #fff;
   padding: 1.25em 0;
 }
 .social-list {
@@ -144,4 +144,29 @@ footer div p,
 h2 {
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  nav ul {
+    width: 100%;
+    position: absolute;
+    top: 95px;
+    right: 0;
+    z-index: 2;
+  }
+  nav ul li {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .hero .row {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
 }
